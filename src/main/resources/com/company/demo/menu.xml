@@ -4,6 +4,9 @@
     <menu id="application" caption="msg://com.company.demo/menu.application" insertBefore="administration">
         <item screen="User.browse" caption="msg://com.company.demo.screen.user/UserBrowse.caption"/>
         <item screen="themeSettingsScreen" caption="msg://io.jmix.ui.app.themesettings/themeSettings.caption"/>
+        <item screen="FileStorageSandboxScreen" caption="msg://com.company.demo.screen.sandbox/fileStorageSandboxScreen.caption"/>
+        <item screen="ByteArraySandboxScreen"
+              caption="msg://com.company.demo.screen.sandbox/byteArraySandboxScreen.caption"/>
     </menu>
 
 </menu-config>

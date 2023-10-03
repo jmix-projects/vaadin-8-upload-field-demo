@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://jmix.io/schema/ui/window"
+        caption="msg://fileStorageSandboxScreen.caption">
+    <layout>
+        <hbox id="uploadWrapper" spacing="true">
+            <label id="fileNameLabel" value="No file selected" align="MIDDLE_LEFT"/>
+        </hbox>
+<!--        <fileStorageUpload accept="*.png,*.jpg"/>-->
+    </layout>
+</window>
